@@ -1,8 +1,7 @@
 //
-//  main.cpp
 //  quicksort
 //
-//  Created by priyadas on 07/06/21.
+//  Created by Priyabrata Das on 07/06/21.
 //
 
 #include <iostream>
