@@ -76,8 +76,7 @@ void appendAtPos(node_t **head , int pos , int val){
     node_t *current_next = current->next;
     new_node->data = val;
     current->next = new_node;
-    new_node->next = current_next;
-    
+    new_node->next = current_next;   
 }
 
 /*
@@ -109,11 +108,12 @@ void deleteAtPos(node_t **head, int pos){
     
     node_t *next = current->next->next;
     free(current->next);
-    current->next = next;
-    
-    
+    current->next = next;    
 }
 
+/*
+    Reverse a linked list given its head 
+*/
 void reverseLinkedlist(node_t **head){
     printf("Reverseing linkedlist \n");
     
@@ -126,9 +126,7 @@ void reverseLinkedlist(node_t **head){
         prev = current;
         current = next;
     }
-    *head = prev ;
-    
-    
+    *head = prev ;  
 }
 
 int main (){
