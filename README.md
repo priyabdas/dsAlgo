@@ -1,2 +1,2 @@
 # dsAlgo
-This contains the data structure and algorithm practices 
+This contains the data structure and algorithm solutions
