@@ -2,7 +2,7 @@
 //  main.c
 //  linkedlist-c
 //
-//  Created by priyabarat Das on 17/02/22.
+//  Created by priyabrata Das on 17/02/22.
 //
 
 #include <stdio.h>
