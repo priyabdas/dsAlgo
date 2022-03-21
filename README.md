@@ -1,2 +1,2 @@
 # dsAlgo
-This contains the data structure and algorithm solutions
+data structure and algorith questions Also conatins Leetcode questions 
